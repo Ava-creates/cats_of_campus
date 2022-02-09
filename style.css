@@ -54,13 +54,16 @@ ul
 }
 
 section {
+    
     display:flex;
     
     margin: 40px;
 }
 
 .text{
-
+    
+    width:200px
+    height:300px;
     margin-left: 520px;
 
 }
