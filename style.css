@@ -53,6 +53,7 @@ ul
     text-align: left;
 }
 section {
+    display:flex;
     float: left;
     margin: 40px;
 }
