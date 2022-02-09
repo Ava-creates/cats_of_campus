@@ -41,7 +41,7 @@ ul
 
 .section img{
     display: block;
-    float: left;
+   
     margin: 30px;
     width: 500px;
     
@@ -52,11 +52,13 @@ ul
     display: inline-block;
     text-align: left;
 }
+
 section {
     display:flex;
-    float: left;
+    
     margin: 40px;
 }
+
 .text{
 
     margin-left: 520px;
