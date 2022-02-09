@@ -56,15 +56,17 @@ ul
 .section {
     
     display:flex;
-    background-color: beiege;
+    background-color: rgb(108, 190, 186);
     margin: 40px;
+    filter: drop-shadow(5px 5px 6px grey);
+    
 }
 
 .text{
     
-    width:200px
+   
     height:300px;
-    margin-left: 520px;
+    
 
 }
 
