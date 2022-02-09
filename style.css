@@ -51,6 +51,7 @@ ul
 {
     display: inline-block;
     text-align: left;
+    background-position: center;
 }
 
 .section {
