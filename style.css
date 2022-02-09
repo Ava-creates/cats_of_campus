@@ -79,3 +79,14 @@ ul
     color: orange;
     font-size: 40px;
 }
+
+#footer
+{
+    background-color: bisque;
+    display: flex;
+    
+}
+
+#footer div{
+    padding: 20px;
+}
