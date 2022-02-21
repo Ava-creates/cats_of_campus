@@ -51,7 +51,10 @@ ul
 {
     display: inline-block;
     text-align: left;
-    margin: 15%;
+    margin: 50px;
+    position: relative;
+    left:12%;
+ 
 }
 
 .section {
@@ -60,6 +63,7 @@ ul
     background-color: rgb(108, 190, 186);
     margin: 40px;
     filter: drop-shadow(5px 5px 6px grey);
+    justify-content: center;
     
 }
 
@@ -90,4 +94,21 @@ ul
 
 #footer div{
     padding: 20px;
+}
+
+input
+{
+    display: flex;
+    color: orange;
+    position: relative;
+    padding: 20px;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 5%;
+    left: 40%;
+    height: 200px;
+    font-size: 50px;
+    width: 230px;
+    margin: 40px;
+
 }
