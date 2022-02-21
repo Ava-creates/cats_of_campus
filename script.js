@@ -17,8 +17,8 @@ window.addEventListener('scroll', function(e){
   }
 
 var i = 0;
-var txt = 'prrrrrrrr prrrrrrrr prrrrrr'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var txt = 'prrrrrrrr prrrrrrrr prrrrrr';
+var speed = 100; 
 
 function typeWriter() {
   if (i < txt.length) {
