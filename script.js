@@ -15,3 +15,16 @@ window.addEventListener('scroll', function(e){
     var audio = document.getElementById("audio");
     audio.play();
   }
+
+var i = 0;
+var txt = 'prrrrrrrr prrrrrrrr prrrrrr'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("prr").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
